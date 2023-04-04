@@ -551,8 +551,8 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   border-top-left-radius: var(--card-radius-big);
 }
 .hideElement.sidebar-1tnWFu + .chat-2ZfjoI .typing-2J1mQU {
-  width: calc(100% + 240px);
-  left: -240px;
+  width: calc(100% + 280px);
+  left: -200px;
 }
 
 /*
@@ -802,7 +802,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   margin-bottom: 11px;
 }
 .sidebar-1tnWFu .name-3BUDLf {
-  font-size: 14px;
+  font-size: 11.5px;
   text-transform: none;
 }
 .sidebar-1tnWFu .container-1-ERn5:not(.hasBanner-2IrYih) .header-3OsQeK {
@@ -10083,7 +10083,7 @@ body:active .menu-KSaHL1:not(:active) {
 }
 
 .sidebar-nqHbhN {
-  --sidebar-width: 280px;
+  --sidebar-width: 240px;
   width: var(--sidebar-width);
   margin: 0;
   padding: 60px 0 40px;
