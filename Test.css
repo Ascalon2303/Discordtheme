@@ -2634,7 +2634,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
  *
  */
 .flowerStar-2tNFCR path {
-  fill: hsl(var(--accent-hsl--material-you));
+  fill: hsl(var(--accent-hsl-link--material-you));
 }
 
 .childContainer-U_a6Yh path {
@@ -2664,7 +2664,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 .lookOutlined-3RTC7c,
 .lookLink-13iF2K,
 .lookInverted-2GrLaB {
-  --button-background: hsl(var(--accent-hsl--material-you));
+  --button-background: hsl(var(--accent-hsl-link--material-you));
   --button-text-color: var(--accent-text-color--material-you);
   --button-shadow: none;
   --button-outline: none;
@@ -2814,12 +2814,12 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 /* BUTTONS -> OUTLINED */
 .lookOutlined-3RTC7c {
   --button-background: transparent;
-  --button-text-color: hsl(var(--accent-hsl--material-you));
+  --button-text-color: hsl(var(--accent-hsl-link--material-you));
   --button-shadow: none !important;
-  --button-outline: 1px solid hsl(var(--accent-hsl--material-you));
+  --button-outline: 1px solid hsl(var(--accent-hsl-link--material-you));
 }
 .lookOutlined-3RTC7c:after {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
 }
 .lookOutlined-3RTC7c:disabled {
   --button-background: transparent;
@@ -2984,7 +2984,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 }
 
 .questionMark-3V9mGJ {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
   border-radius: 50%;
 }
 .questionMark-3V9mGJ .icon-3JHfo7 {
@@ -3023,7 +3023,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   border-radius: var(--card-radius-big);
 }
 .card-16VQ8C a {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 .card-16VQ8C .icon-1fWS75 {
   margin: 16px !important;
@@ -3066,12 +3066,12 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 }
 
 .info-1hMolH, .infoText-1-X8oU {
-  background-color: hsla(var(--accent-hsl), 0.1);
+  background-color: hsla(var(--accent-hsl-link), 0.1);
   border-radius: var(--card-radius-big);
-  border-color: hsl(var(--accent-hsl--material-you));
+  border-color: hsl(var(--accent-hsl-link--material-you));
 }
 .info-1hMolH .icon-2fP4ae, .infoText-1-X8oU .icon-2fP4ae {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 
 .upsellContainer-2a5eMP {
@@ -3099,8 +3099,8 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   transition: var(--default-time) var(--default-animation) fill;
 }
 .checkbox-1LuCGM.checked-22NTbO {
-  background-color: hsl(var(--accent-hsl--material-you)) !important;
-  border-color: hsl(var(--accent-hsl--material-you)) !important;
+  background-color: hsl(var(--accent-hsl-link--material-you)) !important;
+  border-color: hsl(var(--accent-hsl-link--material-you)) !important;
 }
 .checkbox-1LuCGM.checked-22NTbO path {
   fill: var(--accent-text-color--material-you);
@@ -3108,13 +3108,13 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 }
 
 .colorDefault-2_rLdz .checkbox-397WsK {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 .colorDefault-2_rLdz .check-3-73a4 {
   color: var(--accent-text-color--material-you);
 }
 .colorDefault-2_rLdz.focused-3LIdPu .checkbox-397WsK {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 .colorDefault-2_rLdz.focused-3LIdPu .check-3-73a4 {
   color: var(--accent-text-color--material-you);
