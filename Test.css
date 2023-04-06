@@ -3,10 +3,10 @@
 :root {
   --app-font: "Google Sans";
   --app-bg: var(--main-alt);
-  --accent-hue: 224;
+  --accent-hue: 244;
   --accent-saturation: 71%;
   --accent-lightness: 61%;
-  --accent-hsl: hsl(220, 100%, 50%);
+  --accent-hsl: 244,calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
   --accent-button-action: hsl(0,0%,100%);
   --accent-button-action-hover: 0.06;
   --accent-button-action-active: 0.12;
