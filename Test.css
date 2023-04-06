@@ -5345,19 +5345,19 @@ div[role=radiogroup] {
 }
 
 .wrapper-1ZcZW- {
-  background-color: hsla(var(--accent-hsl), 0.15);
+  background-color: hsla(var(--accent-hsl-link), 0.15);
   border-radius: var(--card-radius);
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
   transition: var(--default-time) var(--default-animation) background-color;
 }
 .wrapper-1ZcZW-:hover {
   background-color: hsla(var(--accent-hsl), 0.3);
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 
 .theme-dark .wrapper-1ZcZW- {
   background-color: hsla(var(--accent-hsl), 0.15);
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 .theme-dark .wrapper-1ZcZW-:hover {
   background-color: hsla(var(--accent-hsl), 0.3);
