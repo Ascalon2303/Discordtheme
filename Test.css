@@ -5306,7 +5306,7 @@ div[role=radiogroup] {
  *
  */
 .markup-eYLPri a {
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 .markup-eYLPri pre, .markup-eYLPri pre *, .markup-eYLPri code.inline, .markup-eYLPri .codeBlockText-28BOxV, .markup-eYLPri .codeBlockText-28BOxV *, .markup-eYLPri .codeLine-2C-9aH, .markup-eYLPri .codeLine-2C-9aH *, .markup-eYLPri .codeBlockLang-23YLvb, .markup-eYLPri .codeBlockLang-23YLvb *, .markup-eYLPri .codeBlockSyntax-3mFGiA, .markup-eYLPri .codeBlockSyntax-3mFGiA *, .markup-eYLPri .syntaxAfter-2_BrZf, .markup-eYLPri .syntaxAfter-2_BrZf *, .markup-eYLPri .syntaxBefore-3epS3C, .markup-eYLPri .syntaxBefore-3epS3C * {
   --app-font: var(--code-font);
@@ -6372,11 +6372,11 @@ body:active .root-1CAIjD .container-18GwIk:not(:active) {
   background-color: var(--card-color-hover);
 }
 .optionBox-1UOevl:hover {
-  border-color: hsl(var(--accent-hsl-link--material-you));
+  border-color: hsl(var(--accent-hsl--material-you));
 }
 
 .contentCircle-15IFyT {
-  background-color: hsl(var(--accent-hsl-link--material-you));
+  background-color: hsl(var(--accent-hsl--material-you));
 }
 .contentCircle-15IFyT .uploadIcon-2zMtOT {
   color: var(--accent-text-color--material-you);
@@ -6406,7 +6406,7 @@ body:active .root-1CAIjD .container-18GwIk:not(:active) {
 }
 .inviteRow-3vmB7i .button-ejjZWC {
   --button-height: 32px;
-  --button-outline: 1px solid hsl(var(--accent-hsl-link--material-you));
+  --button-outline: 1px solid hsl(var(--accent-hsl--material-you));
   width: auto;
 }
 
@@ -6582,7 +6582,7 @@ body:active .root-1CAIjD .container-18GwIk:not(:active) {
 }
 
 .selectedProgressBar-11z5d9 {
-  background-color: hsl(var(--accent-hsl-link--material-you));
+  background-color: hsl(var(--accent-hsl--material-you));
 }
 
 .inline-3eaUwP {
@@ -6632,7 +6632,7 @@ body:active .root-1CAIjD .container-18GwIk:not(:active) {
 
 .eventStatusBrand-3D-ae6,
 .eventStatusLabel-1og3vG {
-  color: hsl(var(--accent-hsl-link--material-you)) !important;
+  color: hsl(var(--accent-hsl--material-you)) !important;
 }
 
 /*
@@ -13391,7 +13391,7 @@ body:active .menu-KSaHL1:not(:active) {
 }
 @keyframes shadowPulse-AwLIHr {
   0% {
-    box-shadow: 0 0 6px hsla(var(--accent-hsla), 0.3);
+    box-shadow: 0 0 6px hsla(var(--accent-hsl), 0.3);
   }
   50% {
     box-shadow: 0 0 10px hsla(var(--accent-hsl), 0.6);
