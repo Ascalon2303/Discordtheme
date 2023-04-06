@@ -2018,7 +2018,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   background-color: var(--main-textarea-border);
 }
 .form-3gdLxP .attachedBars-2BCP3l .colorLink-12GX9V {
-  color: hsl(var(--accent-hsl));
+  color: hsl(220, 100%, 50%);
 }
 .form-3gdLxP .attachedBars-2BCP3l + .scrollableContainer-15eg7h {
   border-radius: 0 0 var(--main-textarea-radius) var(--main-textarea-radius);
