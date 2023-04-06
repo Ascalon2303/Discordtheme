@@ -2071,7 +2071,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   margin-left: 8px;
 }
 .buttonContainer-6W2Ep3 .activeButtonChild-2hgLAO {
-  color: hsl(var(--accent-hsl)) !important;
+  color: hsl(var(--accent-hsl-link)) !important;
 }
 .buttonContainer-6W2Ep3 .sendIcon-1HcEzu {
   padding-top: 0;
@@ -2102,7 +2102,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 }
 
 .fakeLink-1wGafz {
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 
 .upload-vLbqu- {
@@ -2333,14 +2333,14 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   background-color: var(--card-button-color-hover) !important;
 }
 .pill-3pRQlO.selected-24z1Ou {
-  background-color: hsla(var(--accent-hsl), 0.3) !important;
+  background-color: hsla(var(--accent-hsl-link), 0.3) !important;
   border-color: transparent !important;
 }
 .pill-3pRQlO.selected-24z1Ou:hover {
-  background-color: hsla(var(--accent-hsl), 0.35) !important;
+  background-color: hsla(var(--accent-hsl-link), 0.35) !important;
 }
 .pill-3pRQlO.selected-24z1Ou .defaultColor-1EVLSt {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 .pill-3pRQlO .emoji-Z6vF9e {
   margin-right: 0;
@@ -2383,14 +2383,14 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   background-color: var(--menu-item-hover);
 }
 .container-2d0jMv .selectedIcon-rQFEab {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 .container-2d0jMv .selectedIcon-rQFEab circle {
-  fill: hsl(var(--accent-hsl--material-you));
+  fill: hsl(var(--accent-hsl-link--material-you));
 }
 
 .countContainer-3DOo5v {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
 }
 .countContainer-3DOo5v .countText-35ewVE {
   color: var(--accent-text-color--material-you);
@@ -2449,7 +2449,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   border-radius: var(--card-radius-big);
 }
 .container-JhuCwn .container-3Om6RL .badge-39TqBS {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
   border-width: 4px;
   border-color: var(--input-color);
   color: var(--accent-text-color--material-you);
@@ -2512,9 +2512,9 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 }
 .container-2qVG6q .newBadge-1LcB6t,
 .container-1PloNW .newBadge-1LcB6t {
-  background-color: hsla(var(--accent-hsl), 0.3) !important;
+  background-color: hsla(var(--accent-hsl-link), 0.3) !important;
   border-radius: 6px;
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 
 .headerRow-1MKoR- {
@@ -2547,7 +2547,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 }
 
 .pinIcon-zVODC5 {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
 }
 .pinIcon-zVODC5 path {
   fill: var(--accent-text-color--material-you);
@@ -2580,7 +2580,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 .container-3YcgdM .button-ejjZWC,
 .container-3YcgdM .addReactButton-3bSQb6 {
   --button-padding: 0 10px;
-  --button-text-color: hsl(var(--accent-hsl--material-you));
+  --button-text-color: hsl(var(--accent-hsl-link--material-you));
   height: var(--button-height);
   padding: var(--button-padding);
   background-color: transparent;
