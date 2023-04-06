@@ -2022,7 +2022,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   background-color: var(--main-textarea-border);
 }
 .form-3gdLxP .attachedBars-2BCP3l .colorLink-12GX9V {
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 .form-3gdLxP .attachedBars-2BCP3l + .scrollableContainer-15eg7h {
   border-radius: 0 0 var(--main-textarea-radius) var(--main-textarea-radius);
@@ -5345,19 +5345,19 @@ div[role=radiogroup] {
 }
 
 .wrapper-1ZcZW- {
-  background-color: hsla(var(--accent-hsl-link), 0.15);
+  background-color: hsla(var(--accent-hsl), 0.15);
   border-radius: var(--card-radius);
-  color: hsl(var(--accent-hsl-link));
+  color: hsl(var(--accent-hsl));
   transition: var(--default-time) var(--default-animation) background-color;
 }
 .wrapper-1ZcZW-:hover {
   background-color: hsla(var(--accent-hsl), 0.3);
-  color: hsl(var(--accent-hsl-link));
+  color: hsl(var(--accent-hsl));
 }
 
 .theme-dark .wrapper-1ZcZW- {
   background-color: hsla(var(--accent-hsl), 0.15);
-  color: hsl(var(--accent-hsl-link));
+  color: hsl(var(--accent-hsl));
 }
 .theme-dark .wrapper-1ZcZW-:hover {
   background-color: hsla(var(--accent-hsl), 0.3);
