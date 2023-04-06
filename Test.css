@@ -4229,7 +4229,7 @@ div[role=radiogroup] {
 }
 
 .topic-11NuQZ a {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 
 .returnButton-1xn3Ii {
@@ -4244,7 +4244,7 @@ div[role=radiogroup] {
 .returnButtonText-27U_ef,
 .returnButtonText-27U_ef * {
   line-height: var(--button-height);
-  color: hsl(var(--accent-hsl--material-you)) !important;
+  color: hsl(var(--accent-hsl-link--material-you)) !important;
 }
 .returnButtonText-27U_ef .text-xs-medium-311pdh {
   font-size: 1em;
@@ -4253,7 +4253,7 @@ div[role=radiogroup] {
 .iconBadge-3Mmg92 {
   top: 0;
   right: 0;
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
   box-shadow: 0 0 0 4px var(--main-color);
 }
 
@@ -4786,7 +4786,7 @@ div[role=radiogroup] {
   stroke: var(--slider-color) !important;
 }
 .wrapper-QQNZRu .foreground-2JnqVD {
-  stroke: hsl(var(--accent-hsl--material-you)) !important;
+  stroke: hsl(var(--accent-hsl-link--material-you)) !important;
 }
 
 /*
@@ -4858,7 +4858,7 @@ div[role=radiogroup] {
 .messageRequestItem-1_NNAR .button-ejjZWC.colorPrimary-2-Lusz {
   --button-padding: 0 12px;
   --button-background: transparent;
-  --button-text-color: hsl(var(--accent-hsl--material-you));
+  --button-text-color: hsl(var(--accent-hsl-link--material-you));
   --accent-button-action-hover: 0.14;
   --accent-button-action-active: 0.21;
 }
@@ -5117,10 +5117,10 @@ div[role=radiogroup] {
 }
 
 .progress-xNqAjK {
-  background-color: hsla(var(--accent-hsl), 0.3) !important;
+  background-color: hsla(var(--accent-hsl-link), 0.3) !important;
 }
 .progress-xNqAjK .progressBar-1T6LYX {
-  background-color: hsl(var(--accent-hsl--material-you)) !important;
+  background-color: hsl(var(--accent-hsl-link--material-you)) !important;
 }
 
 .embed-hKpSrO {
@@ -5221,12 +5221,12 @@ div[role=radiogroup] {
 }
 
 .mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
   box-shadow: var(--shadow-2dp);
 }
 
 .mediaBarInteractionDragging-3XLL8k .mediaBarGrabber-FvJKJg {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
   box-shadow: var(--shadow-3dp);
 }
 
@@ -5234,7 +5234,7 @@ div[role=radiogroup] {
 .mediaBarProgress-38I317,
 .mediaBarProgress-38I317:before,
 .mediaBarProgress-38I317:after {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
 }
 
 /* ATTACHMENTS -> EMOJI SELLUP */
