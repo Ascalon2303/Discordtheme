@@ -7,7 +7,8 @@
   --accent-hue-link: 244;
   --accent-saturation: 71%;
   --accent-lightness: 61%;
-  --accent-hsl: var(--accent-hue-link),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
+  --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
+  --accent-hsl-link: var(--accent-hue-link),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
   --accent-button-action: hsl(0,0%,100%);
   --accent-button-action-hover: 0.06;
   --accent-button-action-active: 0.12;
@@ -129,7 +130,7 @@
   --window-button: rgba(255,255,255,0.1);
   --window-button-inactive: rgba(255,255,255,0.05);
   --text-brand: hsl(var(--accent-hsl));
-  --text-link: hsl(var(--accent-hsl));
+  --text-link: hsl(var(--accent-hsl-link));
 }
 
 .theme-light {
