@@ -209,7 +209,7 @@
 }
 
 ::selection {
-  background: hsla(var(--accent-hsl), 0.35);
+  background: hsla(var(--accent-hsl-link), 0.35);
   text-shadow: none;
 }
 
@@ -240,19 +240,19 @@ body,
 }
 
 .anchor-1MIwyf {
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 
 .icon-2qL2MI {
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 
 .colorBrand-21Le_q, .colorBrand-3Xb6JG {
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 
 .low-saturation .anchor-1MIwyf {
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--accent-hsl-link));
 }
 
 .wordmark-2u86JB.wordmarkWindows-2dq6rw {
