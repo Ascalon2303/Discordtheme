@@ -3221,7 +3221,7 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
   transition: var(--default-time) var(--default-animation) box-shadow;
 }
 .input-3O04eu:focus {
-  box-shadow: inset 0 -2px 0 0 hsl(var(--accent-hsl--material-you));
+  box-shadow: inset 0 -2px 0 0 hsl(var(--accent-hsl-link--material-you));
 }
 .input-3O04eu.multiInput-1VARjC, .input-3O04eu.input-2yCVqe {
   padding: 0;
@@ -3305,7 +3305,7 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
   border-color: var(--main-textarea-border) !important;
 }
 .optionPill-2kmuZR.selectedPill-3cOyS6 {
-  border-color: hsl(var(--accent-hsl--material-you)) !important;
+  border-color: hsl(var(--accent-hsl-link--material-you)) !important;
 }
 .optionPill-2kmuZR.erroredPill-EdxhQP {
   border-color: hsl(var(--alert-hsl)) !important;
@@ -3349,7 +3349,7 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 }
 
 .bd-notice {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
   color: var(--accent-text-color--material-you);
 }
 .bd-notice:first-child {
@@ -3403,7 +3403,7 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 .colorInfo-1kEg3T {
   --button-link-color: 0,0%,0%;
   --button-link-text-color: var(--accent-text-color--material-you);
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
   color: var(--accent-text-color--material-you);
 }
 .colorInfo-1kEg3T .closeIcon-3eoP1e path {
@@ -3503,10 +3503,10 @@ div[role=radiogroup] {
   right: -4px;
 }
 [aria-checked=true].item-1TA5qI .radioBar-1XgZqD:after {
-  --md-ripple-color: var(--accent-hsl--material-you);
+  --md-ripple-color: var(--accent-hsl-link--material-you);
 }
 [aria-checked=true].item-1TA5qI .radioBar-1XgZqD svg {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 [aria-checked=true].item-1TA5qI .radioBar-1XgZqD path {
   fill: currentColor !important;
@@ -3582,7 +3582,7 @@ div[role=radiogroup] {
 
 /* RADIO BUTTONS -> CONTEXT MENU */
 [role=menuitemradio][aria-checked=true].item-5ApiZt .icon-3XHs8t {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 
 .icon-3XHs8t .radioSelection-3PDNAQ {
@@ -3696,7 +3696,7 @@ div[role=radiogroup] {
   background-color: var(--menu-item-select) !important;
 }
 .popout-15UxD6 [aria-selected=true].option-Uc12mm .selectedIcon-122rMx {
-  color: hsl(var(--accent-hsl--material-you));
+  color: hsl(var(--accent-hsl-link--material-you));
 }
 .popout-15UxD6 [aria-selected=true].option-Uc12mm .selectedIcon-122rMx circle {
   fill: var(--accent-text-color--material-you);
@@ -3728,22 +3728,22 @@ div[role=radiogroup] {
 }
 .slider-1mmyV6 .bar-2H7Q9u {
   height: 4px;
-  background-color: hsla(var(--accent-hsl), 0.3) !important;
+  background-color: hsla(var(--accent-hsl-link), 0.3) !important;
   border-radius: 2px;
 }
 .slider-1mmyV6 .bar-2H7Q9u .barFill-3RgCsY {
-  background-color: hsl(var(--accent-hsl--material-you)) !important;
+  background-color: hsl(var(--accent-hsl-link--material-you)) !important;
 }
 .slider-1mmyV6 .track-3I-RwH .grabber-3R-Rx9 {
   width: 16px;
   height: 16px;
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
   border-radius: 50%;
   border: none;
   box-shadow: var(--shadow-1dp);
   transform: translate(-3px, calc(50% - 5px));
   transition: var(--default-time) var(--default-animation) box-shadow;
-  --md-ripple-color: var(--accent-hsl);
+  --md-ripple-color: var(--accent-hsl-link);
   position: relative;
 }
 .slider-1mmyV6 .track-3I-RwH .grabber-3R-Rx9:after {
@@ -3857,7 +3857,7 @@ div[role=radiogroup] {
   transform: translate(-1px, -50%);
 }
 .container-1QtPKm.checked-16gMAN path {
-  fill: hsl(var(--accent-hsl));
+  fill: hsl(var(--accent-hsl-link));
   filter: brightness(40%);
 }
 .container-1QtPKm .slider-HJFN2i {
@@ -4108,12 +4108,12 @@ div[role=radiogroup] {
 .upsellTooltipWrapper-1wqikQ .lookInverted-2GrLaB.colorBrand-2M3O3N {
   --button-padding: 0 12px;
   --button-background: transparent;
-  --button-text-color: hsl(var(--accent-hsl--material-you));
+  --button-text-color: hsl(var(--accent-hsl-link--material-you));
   --accent-button-action-hover: 0.14;
   --accent-button-action-active: 0.21;
 }
 .upsellTooltipWrapper-1wqikQ .lookInverted-2GrLaB.colorBrand-2M3O3N:after {
-  background-color: hsl(var(--accent-hsl--material-you));
+  background-color: hsl(var(--accent-hsl-link--material-you));
 }
 
 .container-5N5x2A .title-2_oicu {
