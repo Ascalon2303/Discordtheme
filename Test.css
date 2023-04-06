@@ -238,7 +238,7 @@ body,
 }
 
 .anchor-1MIwyf {
-  color: hsl(220, 100%, 50%);
+  color: hsl(var(--accent-hsl));
 }
 
 .icon-2qL2MI {
@@ -250,7 +250,7 @@ body,
 }
 
 .low-saturation .anchor-1MIwyf {
-  color: hsl(220, 100%, 50%);
+  color: hsl(var(--accent-hsl));
 }
 
 .wordmark-2u86JB.wordmarkWindows-2dq6rw {
@@ -7333,7 +7333,7 @@ body:active .root-1CAIjD .container-18GwIk:not(:active) {
   margin: 0;
 }
 .modal-2LBig1 .anchor-1MIwyf {
-  color: hsl(220, 100%, 50%) !important;
+  color: hsl(var(--accent-hsl--material-you)) !important;
 }
 .modal-2LBig1 .divider-_0um2u {
   border-color: var(--popout-header-border);
