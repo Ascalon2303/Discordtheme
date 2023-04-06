@@ -2044,7 +2044,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 }
 
 .mentionButton-3C5YMI {
-  --text-link: hsl(var(--accent-hsl));
+  --text-link: hsl(var(--accent-hsl-link));
 }
 
 .threadSuggestionBar-3ExSyc {
