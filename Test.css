@@ -2073,7 +2073,7 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
   margin-left: 8px;
 }
 .buttonContainer-6W2Ep3 .activeButtonChild-2hgLAO {
-  color: hsl(var(--accent-hsl)) !important;
+  color: hsl(var(--accent-hsl-link)) !important;
 }
 .buttonContainer-6W2Ep3 .sendIcon-1HcEzu {
   padding-top: 0;
