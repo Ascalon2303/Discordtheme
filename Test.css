@@ -129,7 +129,7 @@
   --scrollbar-color: 255,255,255;
   --window-button: rgba(255,255,255,0.1);
   --window-button-inactive: rgba(255,255,255,0.05);
-  --text-brand: hsl(var(--accent-hsl));
+  --text-brand: hsl(var(--accent-hsl-link));
   --text-link: hsl(var(--accent-hsl-link));
 }
 
@@ -195,8 +195,8 @@
   --scrollbar-color: 0,0,0;
   --window-button: rgba(0,0,0,0.2);
   --window-button-inactive: rgba(0,0,0,0.1);
-  --text-brand: hsl(var(--accent-hsl));
-  --text-link: hsl(var(--accent-hsl));
+  --text-brand: hsl(var(--accent-hsl-link));
+  --text-link: hsl(var(--accent-hsl-link));
 }
 
 /*
